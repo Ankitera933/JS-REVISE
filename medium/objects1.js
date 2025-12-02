@@ -3,7 +3,7 @@
 
 //Object literal
 
-const mySym=Symbol("key1")
+const mySym=Symbol("key1")//why symbol used here?=>to make unique keys in object :explain properly :1)to avoid name clashes 2) to make properties non-enumerable in simple terms it will not show up in loops and whats its purpose in real life scenarios: e.g.when working with third party libraries where u dont want ur properties to clash with theirs
 const jsUser={
   name:"Ankit",
   age:18,
